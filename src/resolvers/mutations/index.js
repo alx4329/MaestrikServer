@@ -7,8 +7,9 @@ const deleteBook = require('./Book/delete')
 const createPublisher = require('./Publisher/create')
 const updatePublisher = require('./Publisher/update')
 const deletePublisher = require('./Publisher/delete')
+const addBooksToAuthor = require('./Author/addBooksToAuthor')
 
-module.exports = { createAuthor, updateAuthor, deleteAuthor, createBook, updateBook, deleteBook, createPublisher, updatePublisher, deletePublisher }
+module.exports = { createAuthor, updateAuthor, deleteAuthor, createBook, updateBook, deleteBook, createPublisher, updatePublisher, deletePublisher,addBooksToAuthor }
 
 
 

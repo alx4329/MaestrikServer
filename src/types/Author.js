@@ -6,6 +6,7 @@ module.exports = gql`
         firstName: String!
         lastName: String!
         country: String!
+        books: [Book]
     }
     type Query{
         authors: [Author]
@@ -16,6 +17,7 @@ module.exports = gql`
     firstName: String!
     lastName: String!
     country: String!
+    books:[ID]
 }
     input updateAuthorInput{
     firstName: String
@@ -29,6 +31,7 @@ module.exports = gql`
         createAuthor(input: createAuthorInput!): Author!
         updateAuthor(id:ID, input: updateAuthorInput): Author!
         deleteAuthor(id: ID): deleteAuthorPayload!
+        addBooksToAuthor(id: ID!, books: [ID!]): Author
     }
 
   `

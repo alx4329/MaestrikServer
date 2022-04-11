@@ -8,6 +8,9 @@ module.exports = gql`
         synopsis: String!
         genres: [String]
         publicationYear: Int
+        author: [Author]
+        publisher: Publisher
+
     }
     type Query{
         books: [Book]
@@ -15,15 +18,17 @@ module.exports = gql`
     }
 
     input createBookInput{
-        id: ID!
+        id: ID
         title: String!
         ISBN: String!
         synopsis: String!
         genres: [String]!
         publicationYear: Int!
+        author: ID!
+        publisher: ID!
 }
     input updateBookInput{
-        id: ID!
+        id: ID
         title: String
         ISBN: String
         synopsis: String

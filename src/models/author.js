@@ -12,7 +12,10 @@ const authorSchema = new Schema({
     },
     country:{
         type: String
-    }
+    },
+    books:[{
+        type: String
+    }]
 
 })
 

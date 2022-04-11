@@ -18,6 +18,12 @@ const bookSchema = new Schema({
     }], 
     publicationYear:{
         type: Number
+    },
+    author:[{
+        type: String,
+    }],
+    publisher:{
+        type: String,
     }
 
 })
