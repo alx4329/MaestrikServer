@@ -1,0 +1,22 @@
+const data=[{"name":"Jaxnation","foundationYear":2009},
+{"name":"Skimia","foundationYear":2008},
+{"name":"Fadeo","foundationYear":1968},
+{"name":"Fliptune","foundationYear":1992},
+{"name":"Cogilith","foundationYear":2011},
+{"name":"Dazzlesphere","foundationYear":2003},
+{"name":"Zoonoodle","foundationYear":1996},
+{"name":"Podcat","foundationYear":1996},
+{"name":"Flipstorm","foundationYear":1996},
+{"name":"Meevee","foundationYear":1996},
+{"name":"Jabbersphere","foundationYear":1989},
+{"name":"Voolith","foundationYear":2005},
+{"name":"Eire","foundationYear":1995},
+{"name":"Eabox","foundationYear":2008},
+{"name":"Jetwire","foundationYear":1997},
+{"name":"Oozz","foundationYear":1992},
+{"name":"Twinder","foundationYear":1992},
+{"name":"Jayo","foundationYear":1992},
+{"name":"Zooxo","foundationYear":1994},
+{"name":"Avamba","foundationYear":2004}]
+
+module.exports = data;

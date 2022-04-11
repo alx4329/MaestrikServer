@@ -5,7 +5,7 @@ module.exports = gql`
         id: ID!
         name: String!
         foundationYear: Int!
-        
+        books:[Book]
     }
     type Query{
         publishers: [Publisher]
@@ -15,11 +15,14 @@ module.exports = gql`
     input createPublisherInput{
         name: String!
         foundationYear: Int!
-    
-}
+        books:[ID]
+        
+    }
     input updatePublisherInput{
         name: String
         foundationYear: Int
+        books:[ID]
+        
 }
     type deletePublisherPayload{
     id: ID!

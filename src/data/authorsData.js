@@ -1,0 +1,22 @@
+const data = [{"firstName":"Horst","lastName":"Vallentine","country":"Ecuador"},
+{"firstName":"Alphard","lastName":"Switland","country":"Sweden"},
+{"firstName":"Anny","lastName":"Jewson","country":"Djibouti"},
+{"firstName":"Randi","lastName":"Tolworth","country":"Serbia"},
+{"firstName":"Desiri","lastName":"Karlicek","country":"United States"},
+{"firstName":"Tamqrah","lastName":"Lowth","country":"Czech Republic"},
+{"firstName":"Heda","lastName":"Carville","country":"Brazil"},
+{"firstName":"Noami","lastName":"Geertz","country":"Russia"},
+{"firstName":"Suzanne","lastName":"Fullerton","country":"Greece"},
+{"firstName":"Wylie","lastName":"Lannin","country":"Poland"},
+{"firstName":"Berty","lastName":"Ofield","country":"China"},
+{"firstName":"Tarrah","lastName":"Hogsden","country":"Guatemala"},
+{"firstName":"Datha","lastName":"Shalliker","country":"Zambia"},
+{"firstName":"Brittani","lastName":"Dyet","country":"China"},
+{"firstName":"Walden","lastName":"Eccleston","country":"France"},
+{"firstName":"Mallissa","lastName":"Usher","country":"China"},
+{"firstName":"Noelyn","lastName":"Stalley","country":"Japan"},
+{"firstName":"Terri","lastName":"Gyorffy","country":"Philippines"},
+{"firstName":"Alejandrina","lastName":"Rodda","country":"Dominican Republic"},
+{"firstName":"Natale","lastName":"McCaster","country":"France"}]
+
+module.exports = data;

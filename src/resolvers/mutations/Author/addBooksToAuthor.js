@@ -1,6 +1,5 @@
 module.exports = async (_, {id,books}, {models}) =>{
     try{
-        console.log("estoy en la mutat")
         const author = await models.Author.findById(id);
         if(author){
             const BooksToSet =await  books.map(async(book)=>{

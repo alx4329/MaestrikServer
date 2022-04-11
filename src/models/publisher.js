@@ -9,7 +9,11 @@ const publisherSchema = new Schema({
     foundationYear: {
         type: Number,
         required: true
-    }
+    },
+    books:[{
+        type: Array
+    }]
+
 
 })
 

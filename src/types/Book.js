@@ -26,7 +26,7 @@ module.exports = gql`
         publicationYear: Int!
         author: ID!
         publisher: ID!
-}
+    }
     input updateBookInput{
         id: ID
         title: String
@@ -34,6 +34,8 @@ module.exports = gql`
         synopsis: String
         genres: [String]
         publicationYear: Int
+        author: ID
+        publisher: ID
 }
     type deleteBookPayload{
     id: ID!

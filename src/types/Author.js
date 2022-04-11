@@ -23,6 +23,7 @@ module.exports = gql`
     firstName: String
     lastName: String
     country: String
+    books:[ID]
 }
     type deleteAuthorPayload{
     id: ID!
