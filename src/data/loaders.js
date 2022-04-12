@@ -66,38 +66,3 @@ const loadData = async () => {
 
 module.exports = loadData
 
-// i=0;
-//                     j=0;
-//                     books.forEach(async(book)=>{
-//                         if(j===4){
-//                             i++;
-//                             j=0;
-//                         } else j++;
-
-//                         const author = await models.Author.updateOne(
-//                             {_id: authorIds[i]},
-//                             {
-//                                 $push: {books: book._id}
-//                             },
-//                              (error, info) => {
-//                                 if (error) {
-//                                   console.log("Error updating author: ", error);
-//                                 } else {
-//                                     console.log("Successfully updated books author: ",authorIds[i]);
-//                                 }
-//                               }                        
-//                             )
-//                         const publisher = await models.Publisher.updateOne(
-//                             {_id:publisherIds[i]},
-//                             {
-//                                 $push: {books: book._id}
-//                             },
-//                              (error, info) => {
-//                                 if (error) {
-//                                   console.log("Error updating author: ", error);
-//                                 } else {
-//                                     console.log("Successfully updated books author: ",publisherIds[i]);
-//                                 }
-//                               }                        
-//                             )
-//                     })

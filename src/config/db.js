@@ -17,8 +17,8 @@ const connectDB = () => {
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-db.dropCollection('authors', function(err, result) {})
-db.dropCollection('books', function(err, result) {})
-db.dropCollection('publishers', function(err, result) {})
-loadData()
+// db.dropCollection('authors', function(err, result) {})
+// db.dropCollection('books', function(err, result) {})
+// db.dropCollection('publishers', function(err, result) {})
+// loadData()
 module.exports = connectDB;
