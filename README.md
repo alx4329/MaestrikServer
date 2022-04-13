@@ -10,7 +10,7 @@ Download and run npm install.
 > git clone https://github.com/alx4329/MaestrikServer.git
 > npm i
 ```
-Before you can run the server successfully, the a .env file should be created with the information of the mongodb database uri.
+Before you can run the server successfully, the a .env file should be created with the information of the mongodb database uri and the secret key for JWT signing.
 The file `.env.template` can be use as template for this file.
 npm start to start the server.
 ```
