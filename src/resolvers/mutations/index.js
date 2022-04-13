@@ -8,8 +8,10 @@ const createPublisher = require('./Publisher/create')
 const updatePublisher = require('./Publisher/update')
 const deletePublisher = require('./Publisher/delete')
 const addBooksToAuthor = require('./Author/addBooksToAuthor')
+const signIn = require('./User/singIn')
+const signUp = require('./User/signUp')
 
-module.exports = { createAuthor, updateAuthor, deleteAuthor, createBook, updateBook, deleteBook, createPublisher, updatePublisher, deletePublisher,addBooksToAuthor }
+module.exports = { createAuthor, updateAuthor, deleteAuthor, createBook, updateBook, deleteBook, createPublisher, updatePublisher, deletePublisher,addBooksToAuthor, signIn, signUp }
 
 
 
